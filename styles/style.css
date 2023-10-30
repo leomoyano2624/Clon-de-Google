@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+}
+.container-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 14px;
+  height: 60px;
+}
+.img-user {
+  border-radius: 50px;
+  margin-right: 4px;
+}
+.img-user:hover {
+  background-color: rgba(60, 64, 67, 0.1);
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.points {
+  width: 37px;
+  height: 37px;
+  margin: -1px 13px 0 0;
+}
+.points:hover {
+  cursor: pointer;
+}
+.etiquetas-nav {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8px 7px;
+}
+.etiquetas-nav:hover {
+  text-decoration: underline;
+}
+.gmail {
+  margin-right: 8px;
+}
+.imagenes {
+  margin-right: 21px;
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.seeker {
+  border-radius: 24px;
+  width: 584px;
+  height: 48px;
+  border: 1px solid #dfe1e5;
+  margin-top: 26px;
+  display: flex;
+}
+.seeker:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  text-decoration: none;
+  border-color: #ffffff00;
+}
+.seeker2 {
+  display: flex;
+  flex: 1;
+}
+.lupa {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  color: #9aa0a6;
+  margin-top: 13px;
+  margin-left: 14px;
+}
+.buscador {
+  width: 470px;
+  border: none;
+  outline: none;
+  padding-left: 13px;
+  font-size: 1.6rem;
+  padding-bottom: 2px;
+}
+.microphone {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 3px;
+  margin-left: -2px;
+}
+.camera {
+  width: 24px;
+  height: 24px;
+  margin-right: -62px;
+  margin-bottom: 3px;
+}
+.microphone-camera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 29px;
+}
+.botones {
+  background-color: #f8f9fa;
+  height: 36px;
+  padding: 0 16px;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000bf;
+  font-size: 1.4rem;
+}
+.botones:hover {
+  border: 1px solid #dadce0;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.espacio {
+  flex-grow: 1;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #70757a;
+}
+.argentina {
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+.etiquetas-footer {
+  color: rgb(112, 117, 122);
+  text-decoration: none;
+  padding: 14px;
+  font-size: 1.4rem;
+  padding-right: 12px;
+}
+.etiquetas-footer:hover {
+  text-decoration: underline;
+}
+.footer-left {
+  padding-left: 1px;
+}
+.footer-right {
+  padding-right: 3px;
+}
